@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABK's Blog</title>
+    <link rel="stylesheet" href="abk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="ABK.png" type="image/jpeg">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <nav class="navbar" role="navigation">
+            <div class="container nav-container">
+                <button class="hamburger" aria-label="Open/close menu" aria-controls="primary-navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="brand">
+                    <a href="#">ABK's Blog</a>
+                </div>
+
+                <ul id="primary-navigation" class="nav-links" role="menu">
+                    <li role="none"><a role="menuitem" href="#hero">About Me</a></li>
+                    <li role="none"><a role="menuitem" href="#projeler">Projects</a></li>
+                    <li role="none"><a role="menuitem" href="#blog">Blog</a></li>
+                    <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+                    <li role="none"><a role="menuitem" href="#etkinlikler">Events</a></li>
+                    <li role="none"><a role="menuitem" href="#iletisim">Contact</a></li>
+                </ul>
+
+                <button id="theme-toggle" aria-label="Toggle dark mode" class="p-2 rounded-full">
+ 
+  <svg class="sun hidden" xmlns="http://www.w3.org/2000/svg" 
+       fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+          d="M12 3v2m0 14v2m9-9h-2M5 12H3
+             m15.364-6.364l-1.414 1.414M7.05 16.95l-1.414 1.414
+             M16.95 16.95l1.414 1.414M7.05 7.05 5.636 5.636
+             M12 8a4 4 0 100 8 4 4 0 000-8z"/>
+  </svg>
+
+ 
+  <svg class="moon" xmlns="http://www.w3.org/2000/svg" 
+       fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+          d="M21 12.79A9 9 0 1111.21 3
+             a7 7 0 009.79 9.79z"/>
+  </svg>
+</button>
+
+            </div>
+        </nav>
+    </header>
+        <main id="main">
+            <section id="hero">
+                <div class="container hero-inner">
+                    <div class="hero-text">
+                        <h2>Hello, I'm a <span class="animated-text-container">
+                            <span class="animated-text">
+                                <span> Developer </span>
+                                <span> Programmer </span>
+                                <span> Designer </span>
+                                <span> Coder </span>
+                            </span>
+                        </span></h2>
+                        <p>I develop projects on software, embedded systems, and artificial intelligence. On this page, I share my work, events, and blog posts.</p>
+                        <p><a class="cta" href="#projeler">View My Projects</a></p>
+                    </div>
+                    <div class="hero-image">
+                       
+
+                        <div class="avatar"> <img src="https://media.licdn.com/dms/image/v2/D5603AQGWFhpFDg9OAg/profile-displayphoto-crop_800_800/B56Zk5Gpz7I4AI-/0/1757599672042?e=1761782400&v=beta&t=yezzfxwaGbx8Hkl-AzFdboLH8ZN5oozWyBXmiqICRIQ" alt=""></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="projeler">
+                <div class="container">
+                 
+                    <h2>Projects</h2>
+                    <div class="section-header">
+                 
+                    <p>Some of my selected projects.</p>                        
+                        
+                    </div>
+                   
+                    
+                    <div class="grid projects-grid">
+                        <article class="card">
+                            <h3>Who Wants to Be a Millionaire </h3>
+                            <p>This project is a digital “Who Wants to Be a Millionaire” game developed with a C++ backend,
+                                 Node.js adapter, and Next.js frontend, containerized with Docker.</p>
+                        </article>
+                        <article class="card">
+                            <h3>Farm Game</h3>
+                            <p>This project is a basic “Farm Game” developed using Java class structure, 
+                                where farming and resource management are modeled through simple classes.</p>
+                        </article>
+                        <article class="card">
+                            <h3>Web Application</h3>
+                            <p> Coming soon </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="blog">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Blog</h2>
+                        <p>My technical articles, experiences, and course notes. </p>
+                        
+                        
+                    </div>
+
+                    <div class="grid blog-grid">
+                        <article class="post-card card">
+                            <div class="card-media" aria-hidden="true">
+                               <div class="card-media" aria-hidden="true">
+   
+                                <img src="resim.jpg" alt="Blog image">
+
+                            </div>
+                                <div class="thumb">DS</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="meta">Sep 12, 2025 • Software</div>
+                                <h3 class="post-title">Data Structures and Algorithms</h3>
+                                <p class="post-excerpt">A concise set of study notes covering fundamental to advanced concepts in data structures.</p>
+                                <div class="card-footer">
+                                    <div class="tags"><span>#algorithm</span> <span>#datastructures</span></div>
+                                    <a class="read-more" href="#">Read More →</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="post-card card">
+                            <div class="card-media" aria-hidden="true">
+                                <div class="card-media" aria-hidden="true">
+   
+                                <img src="resim.jpg" alt="Blog image">
+
+                            </div>
+                                <div class="thumb">ML</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="meta">Aug 03, 2025 • AI</div>
+                                <h3 class="post-title">Python Study Notes: From Basics to Advanced</h3>
+                                <p class="post-excerpt">A comprehensive collection of Python study notes designed to guide learners from beginner concepts to advanced programming techniques.</p>
+                                <div class="card-footer">
+                                    <div class="tags"><span>#ml</span> <span>#python</span></div>
+                                    <a class="read-more" href="#">Read More →</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        <div class="skill">C / C++</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React</div>
+                        <div class="skill">Java</div>
+                        <div class= "skill">Html / Css </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="etkinlikler">
+                <div class="container">
+                    <h2>Events</h2>
+                    <ul class="events">
+                        <li>MMG Çalıştayı - 2025</li>
+                        <li>Mavi Omurga YTÜ - 2025</li>
+                        <li>İTO Toplantısı </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="iletisim">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <p>Fill out the form or send an email to get in touch with me.</p>
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <label for="name">Your Name</label>
+                            <input id="name" name="name" type="text" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/ahmetb.k._/?__pwa=1#" target="_blank" aria-label="Instagram" data-tooltip="Instagram" class="social-icon social-instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://github.com/AhmetBks" target="_blank" aria-label="GitHub" data-tooltip="GitHub" class="social-icon social-github">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://tr.linkedin.com/in/ahmet-bu%C4%9Fra-ku%C5%9Fcu-46a193247" target="_blank" aria-label="LinkedIn" data-tooltip="LinkedIn" class="social-icon social-linkedin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="mailto:ahmet.kuscu1@hotmail.com" aria-label="Email" data-tooltip="Email" class="social-icon social-mail">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 ABK's Blog</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="theme.js"></script>
+    </body>
+</html>
